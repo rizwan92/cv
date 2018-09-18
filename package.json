@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rizwan92.github.io/",
+  "homepage": "http://rizwan92.github.io/cv",
   "name": "cv",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "stylus": "stylus -u nib -c -w -o public/css/style.css src/index.styl"
+    "stylus": "stylus -u nib -c -w -o public/css/style.css src/index.styl",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "description": "Professional Resume CV Template in ReactJS",
   "main": "index.js",
