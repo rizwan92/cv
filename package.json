@@ -1,5 +1,6 @@
 {
-  "name": "gresumereact",
+  "homepage": "http://rizwan92.github.io/",
+  "name": "cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.0",
     "nib": "^1.1.2",
     "react-scripts": "^1.1.5",
     "stylus": "^0.54.5"
@@ -24,17 +26,16 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gndx/gresume-react.git"
+    "url": "git+https://github.com/rizwan92/cv.git"
   },
   "keywords": [
     "Gresume",
     "react",
     "jsx"
   ],
-  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "author": "Rizwan Chouhan (rizwan92)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gndx/gresume-react/issues"
-  },
-  "homepage": "https://github.com/gndx/gresume-react#readme"
+    "url": "https://github.com/rizwan92/cv/issues"
+  }
 }
