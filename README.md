@@ -1,6 +1,6 @@
-# gresume-react
+# Rizwan Chouhan 
 Professional Resume CV Template in ReactJS
-*  Click here to use the [Live Demo](http://dev.gndx.co/gresume-react/)
+*  Click here to use the [Live Demo](http://rizwan92.github.io/)
 
 
 
