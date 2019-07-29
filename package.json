@@ -4,15 +4,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "classnames": "^2.2.5",
-    "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^2.0.1",
     "nib": "^1.1.2",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^3.0.1",
     "stylus": "^0.54.5"
   },
   "scripts": {
@@ -39,5 +39,17 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rizwan92/cv/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

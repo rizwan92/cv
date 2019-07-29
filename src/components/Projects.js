@@ -7,7 +7,7 @@ const Projects = (props) => {
         <div className='item' key={i}>
           <h3>{exp.jobTitle} @ {exp.company} <span>{exp.startDate} - {exp.endDate}</span></h3>
           <p>{exp.jobDescription}</p>
-          {exp.link.map((lnk,i)=><a style={{display:'block'}} key={i} href={lnk} target="_blank">{lnk}</a>)}
+          {exp.link.map((lnk,i)=><a style={{display:'block'}} key={i} href={lnk} rel="noopener noreferrer" target="_blank">{lnk}</a>)}
         </div>
       )}
     </div>
